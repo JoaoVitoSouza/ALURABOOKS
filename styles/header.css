@@ -5,6 +5,7 @@
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 .cabeçalho {
     background-color: var(--branco);
@@ -19,3 +20,11 @@
 .container__imagem {
     padding: 1em;
 }
+ .lista-menu{
+    display: none;
+    position: absolute;
+    top:100%;
+ }
+  .conteiner:checked ~ .lista-menu{
+    display: block;
+  }
