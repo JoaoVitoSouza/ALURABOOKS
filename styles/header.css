@@ -20,11 +20,12 @@
 .container__imagem {
     padding: 1em;
 }
- .lista-menu{
+.lista-menu {
     display: none;
     position: absolute;
-    top:100%;
- }
+    top: 100%;
+  }
+  
   .conteiner:checked ~ .lista-menu{
     display: block;
   }
